@@ -5,7 +5,7 @@ caleb-dahlke.jpg	https://uq.engin.umich.edu/wp-content/uploads/sites/521/2024/09
 nan-feng.jpg	https://uq.engin.umich.edu/wp-content/uploads/sites/521/2023/08/Nan_Feng_scaled-768x1020.jpg
 nathaly-villacis.jpg	https://uq.engin.umich.edu/wp-content/uploads/sites/521/2025/09/Nathaly_Villacis_scaled-768x1021.jpg
 biao-chen.jpg	https://uq.engin.umich.edu/wp-content/uploads/sites/521/2024/08/Biao_Chen_scaled-768x1019.jpg
-codie-kawaguchi-portrait.jpg	User-provided attachment: FiedlerKawaguchi_Codie.JPG; original image, no retouching.
+codie-kawaguchi-web.jpg	User-provided attachment: FiedlerKawaguchi_Codie.JPG; resized to 800 x 1200 pixels and JPEG-compressed for the web, no retouching.
 hongfan-chen.jpg	https://uq.engin.umich.edu/wp-content/uploads/sites/521/2022/09/Hongfan_Chen_scaled-768x1020.jpg
 ellen-meyer.jpg	https://uq.engin.umich.edu/wp-content/uploads/sites/521/2024/08/Ellen_Meyer_scaled-768x1005.jpg
 geodgp-global-dbh.png	https://csem.engin.umich.edu/GeoDGP/assets/regular_still_last_dBH.png
