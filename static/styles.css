@@ -31,10 +31,24 @@ button,summary{cursor:pointer}
 .wordmark>span{white-space:nowrap;font:500 29px/1.2 var(--display);letter-spacing:-.025em}
 .wordmark-divider{font-size:26px;color:var(--accent);padding:0 7px}
 .wordmark small{font:18px/1.3 var(--sans);letter-spacing:.02em;margin-top:10px}
-.desktop-nav{display:flex;gap:28px;align-items:center;font-size:18px}
-.desktop-nav a{text-decoration:none;padding:8px 0}
-.desktop-nav a[aria-current=page]{box-shadow:0 1px 0 var(--accent)}
-.desktop-nav a:hover{box-shadow:0 1px 0 var(--ink)}
+.desktop-nav{font-size:18px}
+.nav-list,.nav-submenu{list-style:none;margin:0;padding:0}
+.nav-list{display:flex;gap:22px;align-items:center}
+.nav-item,.nav-submenu>li{padding:0;margin:0}
+.nav-item{position:relative;display:flex;align-items:center}
+.nav-link{display:block;padding:8px 0;text-decoration:none;white-space:nowrap}
+.nav-item.is-active>.nav-link{box-shadow:0 1px 0 var(--accent)}
+.nav-link:hover{box-shadow:0 1px 0 var(--ink)}
+.nav-disclosure>summary{width:32px;height:44px;display:flex;align-items:center;justify-content:center;list-style:none;color:var(--ink);border-radius:3px}
+.nav-disclosure>summary::-webkit-details-marker{display:none}
+.nav-disclosure>summary:hover,.nav-disclosure[open]>summary{background:var(--wash)}
+.nav-chevron{display:block;width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-2px) rotate(45deg)}
+.nav-disclosure[open]>summary .nav-chevron{transform:translateY(2px) rotate(225deg)}
+.nav-submenu{position:absolute;z-index:30;top:calc(100% + 8px);left:-16px;min-width:248px;padding:8px;background:white;border:1px solid var(--line);border-radius:4px;box-shadow:0 10px 24px #243d4914;font-size:18px;line-height:1.4}
+.nav-submenu a{display:block;padding:11px 12px;text-decoration:none;white-space:nowrap;border-radius:2px}
+.nav-submenu a:hover,.nav-submenu a[aria-current=page]{background:var(--wash);color:var(--ink)}
+.nav-submenu a[aria-current=page]{font-weight:600}
+.nav-submenu a:focus-visible{outline-offset:-2px}
 .mobile-menu{display:none}
 .site-main{padding:36px 0 48px;min-height:60vh}
 .page-index .site-main{padding-top:36px}
@@ -253,13 +267,21 @@ button,summary{cursor:pointer}
 .page-news .section>h2{font-size:36px}
 .spaced{margin-top:20px}
 
-.mobile-menu summary{list-style:none;display:flex;gap:17px;align-items:center;padding:12px 0}
-.mobile-menu summary::-webkit-details-marker{display:none}
-.mobile-menu[open] nav{position:absolute;z-index:10;left:0;right:0;top:100%;background:white;border-bottom:1px solid var(--line);padding:19px 20px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 22px;box-shadow:0 15px 20px #233b4910}
-.mobile-menu nav a{text-decoration:none;padding:12px}
-.mobile-menu nav a[aria-current=page]{background:var(--wash)}
+.mobile-menu>summary{list-style:none;display:flex;gap:17px;align-items:center;padding:12px 0}
+.mobile-menu>summary::-webkit-details-marker{display:none}
+.mobile-menu[open]>summary>span{transform:rotate(45deg)}
+.mobile-menu[open]>nav{position:absolute;z-index:30;left:0;right:0;top:100%;background:white;border-bottom:1px solid var(--line);padding:12px 20px 18px;max-height:calc(100dvh - 110px);overflow-y:auto;box-shadow:0 15px 20px #233b4910}
+.mobile-menu .nav-list{display:block;max-width:680px;margin:auto}
+.mobile-menu .nav-item{display:block}
+.mobile-menu .nav-link{padding:10px 12px;min-height:46px}
+.mobile-menu .nav-group>.nav-link{margin-right:44px}
+.mobile-menu .nav-item.is-active>.nav-link{box-shadow:none;color:var(--ink);font-weight:600}
+.mobile-menu .nav-link:hover{box-shadow:none;background:var(--wash)}
+.mobile-menu .nav-disclosure>summary{position:absolute;right:0;top:0;width:44px;height:46px}
+.mobile-menu .nav-submenu{position:static;min-width:0;margin:2px 12px 10px 20px;padding:0 0 0 10px;border:0;border-left:1px solid var(--line);border-radius:0;box-shadow:none}
+.mobile-menu .nav-submenu a{padding:10px 12px;white-space:normal}
 
-@media(max-width:960px){.desktop-nav{display:none}.mobile-menu{display:block;font-size:18px}.header-inner{gap:18px;min-height:90px}}
+@media(max-width:1120px){.desktop-nav{display:none}.mobile-menu{display:block;font-size:18px}.header-inner{gap:18px;min-height:90px}}
 
 /* Responsive layouts retain complete scientific figures. */
 @media(min-width:1400px){.header-inner,.site-main,.footer-main,.footer-bottom{max-width:1240px}

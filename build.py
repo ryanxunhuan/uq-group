@@ -11,7 +11,26 @@ import shutil
 
 ROOT = Path(__file__).resolve().parent
 PUBLIC = ROOT / 'public'
-NAV = [('Home','index.html'), ('Research','research.html'), ('Applications','applications.html'), ('Publications','publications.html'), ('People','people.html'), ('News','news.html'), ('Contact','contact.html')]
+NAV = [
+    ('Home', 'index.html', []),
+    ('Research', 'research.html', [
+        ('Research Overview', 'research.html'),
+        ('Research Stories', 'stories.html'),
+    ]),
+    ('Applications', 'applications.html', []),
+    ('Publications', 'publications.html', [
+        ('Selected Publications', 'publications.html'),
+        ('Full Bibliography', 'bibliography.html'),
+    ]),
+    ('People', 'people.html', [
+        ('Current Members', 'people.html'),
+        ('Xun Huan', 'xun-huan.html'),
+        ('Alumni', 'alumni.html'),
+        ('Group Outings', 'outings.html'),
+    ]),
+    ('News', 'news.html', []),
+    ('Contact', 'contact.html', []),
+]
 
 
 class NewsExcerpt(HTMLParser):
@@ -63,9 +82,33 @@ def home_content():
     return body.replace('{{UPCOMING_EVENTS}}', display_dates((ROOT / 'content/events.html').read_text()))
 
 
+def render_navigation(key, active):
+    current_url = key + '.html'
+
+    def link(label, url, main=False):
+        css_class = ' class="nav-link"' if main else ''
+        current = ' aria-current="page"' if url == current_url else ''
+        return '<a' + css_class + ' href="' + escape(url, quote=True) + '"' + current + '>' + escape(label) + '</a>'
+
+    items = []
+    for label, url, children in NAV:
+        classes = ['nav-item']
+        if children:
+            classes.append('nav-group')
+        if label == active:
+            classes.append('is-active')
+        item = '<li class="' + ' '.join(classes) + '">' + link(label, url, main=True)
+        if children:
+            item += '<details class="nav-disclosure"><summary aria-label="' + escape('More ' + label + ' pages', quote=True) + '"><span class="nav-chevron" aria-hidden="true"></span></summary><ul class="nav-submenu">'
+            item += ''.join('<li>' + link(child_label, child_url) + '</li>' for child_label, child_url in children)
+            item += '</ul></details>'
+        items.append(item + '</li>')
+    return '<ul class="nav-list">' + ''.join(items) + '</ul>'
+
+
 def render_page(key, body, meta):
     shell = (ROOT / 'templates/page.html').read_text()
-    links = ''.join('<a href="'+url+'"'+(' aria-current="page"' if label == meta.get('active') else '')+'>'+label+'</a>' for label, url in NAV)
+    links = render_navigation(key, meta.get('active'))
     replacements = {'title': escape(meta['title']), 'description': escape(meta['description'], quote=True), 'page': key, 'navigation': links, 'body': body}
     for name, value in replacements.items():
         shell = shell.replace('{{'+name+'}}', value)

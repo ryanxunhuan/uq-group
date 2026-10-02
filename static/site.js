@@ -55,9 +55,53 @@ if (search) {
 }
 
 const menu = document.querySelector('.mobile-menu');
-if (menu) {
-  menu.addEventListener('keydown', event => {
-    if (event.key === 'Escape') { menu.open = false; menu.querySelector('summary').focus(); }
+const disclosures = [...document.querySelectorAll('.nav-disclosure')];
+const closeDisclosures = except => disclosures.forEach(item => {
+  if (item !== except) item.open = false;
+});
+
+// Native disclosures support touch, keyboard, and navigation without JavaScript.
+disclosures.forEach(item => {
+  item.addEventListener('toggle', () => {
+    if (item.open) closeDisclosures(item);
   });
-  document.addEventListener('click', event => { if (!menu.contains(event.target)) menu.open = false; });
+});
+
+document.addEventListener('click', event => {
+  disclosures.forEach(item => {
+    if (!item.closest('.nav-group').contains(event.target)) item.open = false;
+  });
+  if (menu && !menu.contains(event.target)) menu.open = false;
+});
+
+document.addEventListener('focusin', event => {
+  disclosures.forEach(item => {
+    if (!item.closest('.nav-group').contains(event.target)) item.open = false;
+  });
+  if (menu && !menu.contains(event.target)) menu.open = false;
+});
+
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape') return;
+  const openDisclosure = disclosures.find(item => item.open);
+  if (openDisclosure) {
+    openDisclosure.open = false;
+    openDisclosure.querySelector('summary').focus();
+    event.preventDefault();
+  } else if (menu && menu.open) {
+    menu.open = false;
+    menu.querySelector('summary').focus();
+    event.preventDefault();
+  }
+});
+
+if (menu) {
+  menu.addEventListener('toggle', () => {
+    if (!menu.open) closeDisclosures();
+  });
 }
+
+window.matchMedia('(max-width: 1120px)').addEventListener('change', () => {
+  closeDisclosures();
+  if (menu) menu.open = false;
+});
