@@ -1,0 +1,423 @@
+{
+  "retrieved_at": "2026-09-27",
+  "notes": [
+    "Original public paper assets. No scientific data or figure contents generated. Captions are concise paraphrases checked against the identified figures.",
+    "Public-posting rights are assessed separately from the requested private offline review.",
+    "Eight verified paper-figure sets are provided. GeoDGP publisher PDF and ESSOAr preprint downloads returned HTTP403; the existing dated forecast snapshot is recorded separately and is not presented as a paper figure.",
+    "Story thumbnails display complete existing figures or complete source panels without cropping. Small previews link to their corresponding research stories, where captions, sources, and full-size assets are available."
+  ],
+  "figures": [
+    {
+      "project_slug": "flood-monitoring",
+      "file": "assets/papers/flood-fig8-location1.png",
+      "files": [
+        {
+          "file": "assets/papers/flood-fig8-location1.png",
+          "panel": "Location 1",
+          "alt": "Expected information gain over candidate sensor locations for prediction target Location 1, with the target marked by a green triangle and best sensor by a black star.",
+          "bytes": 402152,
+          "width": 859,
+          "height": 682
+        },
+        {
+          "file": "assets/papers/flood-fig8-location2.png",
+          "panel": "Location 2",
+          "alt": "Corresponding information-gain map for Location 2 on its own color scale.",
+          "bytes": 404706,
+          "width": 859,
+          "height": 682
+        },
+        {
+          "file": "assets/papers/flood-fig8-location3.png",
+          "panel": "Location 3",
+          "alt": "Corresponding information-gain map for Location 3 on its own color scale.",
+          "bytes": 401941,
+          "width": 859,
+          "height": 682
+        }
+      ],
+      "figure_label": "Figure 8",
+      "caption": "Where a measurement is most informative depends on the flood prediction target. These maps show expected information gain for one-hour-ahead water-depth predictions at three locations. Green triangles mark the targets; black stars mark the highest-information sensor locations. Each panel has its own color scale (nats).",
+      "alt": "Expected information gain over candidate sensor locations for prediction target Location 1, with the target marked by a green triangle and best sensor by a black star. Corresponding information-gain map for Location 2 on its own color scale. Corresponding information-gain map for Location 3 on its own color scale.",
+      "source_url": "https://arxiv.org/html/2608.21182v1#S4.F8",
+      "asset_source_urls": [
+        "https://arxiv.org/html/2608.21182v1/ul_single_loc1_single_time_UL_test.png",
+        "https://arxiv.org/html/2608.21182v1/ul_single_loc2_single_time_UL_test.png",
+        "https://arxiv.org/html/2608.21182v1/ul_single_loc3_single_time_UL_test.png"
+      ],
+      "credit": "Cheng et al. (2026), arXiv:2608.21182v1, Figure 8.",
+      "license": {
+        "name": "arXiv non-exclusive distribution license",
+        "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+        "evidence_url": "https://arxiv.org/abs/2608.21182v1"
+      },
+      "reuse_status": "Downloaded from the public author preprint for the user-author’s requested private offline review. The arXiv distribution license does not itself grant general public reuse; verify author/publisher rights before public posting.",
+      "display_note": "Show all three unchanged panels in original Location 1/2/3 order. Do not compare colors as if scales were shared. Provide full-size image links.",
+      "verified": {
+        "caption_checked": true,
+        "visual_inspection": true,
+        "scientific_content_changed": false
+      }
+    },
+    {
+      "project_slug": "battery-health",
+      "file": "assets/papers/battery-fig1-framework.png",
+      "files": [
+        {
+          "file": "assets/papers/battery-fig1-framework.png",
+          "panel": "complete",
+          "alt": "Six-part workflow showing charging data, parameter selection, a parameterized physics-informed neural network, inferred parameter evolution, state-of-health estimation, and application scenarios.",
+          "bytes": 243100,
+          "width": 2029,
+          "height": 1221
+        }
+      ],
+      "figure_label": "Figure 1",
+      "caption": "A physics-informed battery diagnostic workflow links partial charging data to internal aging parameters, then uses those parameters to estimate state of health across charging profiles and operating conditions.",
+      "alt": "Six-part workflow showing charging data, parameter selection, a parameterized physics-informed neural network, inferred parameter evolution, state-of-health estimation, and application scenarios.",
+      "source_url": "https://arxiv.org/html/2511.12053v1#S2.F1",
+      "asset_source_urls": [
+        "https://arxiv.org/html/2511.12053v1/Framework.png"
+      ],
+      "credit": "Gu et al. (2025), arXiv:2511.12053v1, Figure 1. Related journal article: eTransportation 28 (2026), 100555.",
+      "license": {
+        "name": "arXiv non-exclusive distribution license",
+        "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+        "evidence_url": "https://arxiv.org/abs/2511.12053v1"
+      },
+      "reuse_status": "Downloaded from the public author preprint for the user-author’s requested private offline review. The arXiv distribution license does not itself grant general public reuse; verify author/publisher rights before public posting.",
+      "display_note": "Use complete unchanged workflow. Detailed technical labels require a large or expandable view.",
+      "verified": {
+        "caption_checked": true,
+        "visual_inspection": true,
+        "scientific_content_changed": false
+      }
+    },
+    {
+      "project_slug": "sequential-design",
+      "file": "assets/papers/stopping-fig2-flowchart.png",
+      "files": [
+        {
+          "file": "assets/papers/stopping-fig2-flowchart.png",
+          "panel": "complete",
+          "alt": "Sequential decision diagram: each belief state branches to stopping or to experiment design and observation, followed by a Bayesian update and another decision.",
+          "bytes": 107600,
+          "width": 2400,
+          "height": 546
+        }
+      ],
+      "figure_label": "Figure 2",
+      "caption": "Experimental design and stopping are coupled decisions. After each observation updates the belief state, the policy can run another experiment or stop and receive the terminal reward, subject to a maximum experiment budget.",
+      "alt": "Sequential decision diagram: each belief state branches to stopping or to experiment design and observation, followed by a Bayesian update and another decision.",
+      "source_url": "https://arxiv.org/html/2509.21734v3#S2.F2",
+      "asset_source_urls": [
+        "https://arxiv.org/html/2509.21734v3/flowchart.svg"
+      ],
+      "credit": "Cheng and Huan (2026 revision), arXiv:2509.21734v3, Figure 2.",
+      "license": {
+        "name": "arXiv non-exclusive distribution license",
+        "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+        "evidence_url": "https://arxiv.org/abs/2509.21734v3"
+      },
+      "reuse_status": "Downloaded from the public author preprint for the user-author’s requested private offline review. The arXiv distribution license does not itself grant general public reuse; verify author/publisher rights before public posting.",
+      "display_note": "Faithful PNG rasterization of the unchanged source vector, for standard WordPress media support. Preserve full diagram and provide full-size link. Original SVG also retained.",
+      "verified": {
+        "caption_checked": true,
+        "visual_inspection": true,
+        "scientific_content_changed": false
+      },
+      "original_vector_file": "assets/papers/stopping-fig2-flowchart.svg"
+    },
+    {
+      "project_slug": "model-learning",
+      "file": "assets/papers/bvsi-fig5a-mean.png",
+      "files": [
+        {
+          "file": "assets/papers/bvsi-fig5a-mean.png",
+          "panel": "(a) Posterior predictive mean",
+          "alt": "Posterior predictive mean of the Fokker–Planck potential over a two-dimensional spatial domain.",
+          "bytes": 45108,
+          "width": 586,
+          "height": 454
+        },
+        {
+          "file": "assets/papers/bvsi-fig5b-variance.png",
+          "panel": "(b) Posterior predictive variance",
+          "alt": "Posterior predictive variance of the inferred potential, with larger uncertainty toward the lower edge of the domain.",
+          "bytes": 33966,
+          "width": 588,
+          "height": 466
+        }
+      ],
+      "figure_label": "Figure 5",
+      "caption": "Bayesian system identification provides both an inferred potential and its uncertainty. For the Fokker–Planck example, the panels show the posterior predictive mean and variance computed from the approximate Gaussian coefficient posterior.",
+      "alt": "Posterior predictive mean of the Fokker–Planck potential over a two-dimensional spatial domain. Posterior predictive variance of the inferred potential, with larger uncertainty toward the lower edge of the domain.",
+      "source_url": "https://arxiv.org/html/2606.14942v1#S4.F5",
+      "asset_source_urls": [
+        "https://arxiv.org/html/2606.14942v1/fig8.png",
+        "https://arxiv.org/html/2606.14942v1/fig9.png"
+      ],
+      "credit": "Huang et al. (2026), arXiv:2606.14942v1, Figure 5. CC BY-NC-SA 4.0.",
+      "license": {
+        "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "evidence_url": "https://arxiv.org/abs/2606.14942v1"
+      },
+      "reuse_status": "Public preprint declares CC BY-NC-SA 4.0. Local review authorized. Public reuse must follow attribution, noncommercial and applicable ShareAlike terms; confirm no separate third-party restrictions.",
+      "display_note": "Keep mean and variance panels together and labeled; scales differ. These are posterior predictions, not a ground-truth/estimate comparison.",
+      "verified": {
+        "caption_checked": true,
+        "visual_inspection": true,
+        "scientific_content_changed": false
+      }
+    },
+    {
+      "project_slug": "multifidelity",
+      "file": "assets/papers/multifidelity-fig11-roundjet.png",
+      "files": [
+        {
+          "file": "assets/papers/multifidelity-fig11-roundjet.png",
+          "panel": "complete",
+          "alt": "A turbulent round jet emerging from a nozzle, shown as three-dimensional vortex structures and a two-dimensional vorticity slice.",
+          "width": 2002,
+          "height": 904,
+          "bytes": 1011286
+        }
+      ],
+      "figure_label": "Figure 11",
+      "caption": "The turbulent round-jet test case combines complex three-dimensional flow structures with a wide range of scales. Vortex structures are shown on the left; the vorticity slice on the right highlights shear layers and mixing.",
+      "alt": "A turbulent round jet emerging from a nozzle, shown as three-dimensional vortex structures and a two-dimensional vorticity slice.",
+      "source_url": "https://arxiv.org/html/2511.03756v1#S4.F11",
+      "asset_source_urls": [
+        "https://arxiv.org/html/2511.03756v1/figs_main/Jet1Jet2_Combined.png"
+      ],
+      "credit": "Jivani et al. (2025), arXiv:2511.03756v1, Figure 11. CC BY 4.0.",
+      "license": {
+        "name": "Creative Commons Attribution 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence_url": "https://arxiv.org/abs/2511.03756v1"
+      },
+      "reuse_status": "Public preprint declares CC BY 4.0. Retain author/source/license attribution and indicate any changes; verify separately credited third-party material before public posting. Local review authorized.",
+      "display_note": "Complete unchanged PNG with transparency; display on white. This shows the test case, not a direct fidelity or surrogate-accuracy comparison.",
+      "verified": {
+        "caption_checked": true,
+        "visual_inspection": true,
+        "scientific_content_changed": false
+      }
+    },
+    {
+      "project_slug": "causal-learning",
+      "file": "assets/papers/causal-fig1a-graph.png",
+      "files": [
+        {
+          "file": "assets/papers/causal-fig1a-graph.png",
+          "panel": "Target causal query",
+          "alt": "Six-node causal graph highlighting an intervention on X3 and target outcomes X5 and X6.",
+          "bytes": 44161,
+          "width": 690,
+          "height": 507
+        },
+        {
+          "file": "assets/papers/causal-fig1bc-interventions.png",
+          "panel": "Intervention rankings",
+          "alt": "Two copies of the same causal graph compare intervention rankings when learning all model parameters and when learning the target causal query.",
+          "bytes": 164735,
+          "width": 2000,
+          "height": 968
+        }
+      ],
+      "figure_label": "Figure 1",
+      "caption": "Experimental priorities depend on the causal question. In this six-node example, the target is the effect of setting X3 to 10 on X5 and X6. Learning all model parameters ranks an intervention on X1 highest; targeting the causal query instead ranks X3 highest. The panels retain the paper’s original information-gain values and rankings.",
+      "alt": "Six-node causal graph highlighting an intervention on X3 and target outcomes X5 and X6. Two copies of the same causal graph compare intervention rankings when learning all model parameters and when learning the target causal query.",
+      "source_url": "https://arxiv.org/html/2507.07359v1#S1.F1",
+      "asset_source_urls": [
+        "https://arxiv.org/html/2507.07359v1/figure1_left.png",
+        "https://arxiv.org/html/2507.07359v1/figure1_right.svg"
+      ],
+      "credit": "Zhang, Dong, Liu, and Huan (2025), arXiv:2507.07359v1, Figure 1. Related article: TMLR (2026).",
+      "license": {
+        "name": "arXiv non-exclusive distribution license",
+        "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+        "evidence_url": "https://arxiv.org/abs/2507.07359v1"
+      },
+      "reuse_status": "Downloaded from the public author preprint for the user-author’s requested private offline review. The arXiv distribution license does not itself grant general public reuse; verify author/publisher rights before public posting.",
+      "display_note": "Preserve the target-query graph and the complete intervention-ranking comparison. The second asset is a faithful PNG rasterization of the unchanged source vector. These are a model illustration, not an experimental biological validation.",
+      "original_vector_files": [
+        "assets/papers/causal-fig1bc-interventions.svg"
+      ],
+      "verified": {
+        "caption_checked": true,
+        "visual_inspection": true,
+        "scientific_content_changed": false
+      }
+    },
+    {
+      "project_slug": "multifidelity-information",
+      "file": "assets/papers/mf-information-fig11a-eig.png",
+      "files": [
+        {
+          "file": "assets/papers/mf-information-fig11a-eig.png",
+          "panel": "Linear vertical axis",
+          "alt": "Estimated expected information gain across sensor locations near a turbulent boundary layer, shown with a linear vertical coordinate.",
+          "bytes": 440965,
+          "width": 2000,
+          "height": 1500
+        },
+        {
+          "file": "assets/papers/mf-information-fig11b-eig-log.png",
+          "panel": "Logarithmic vertical axis",
+          "alt": "The same estimated information-gain field with a logarithmic vertical coordinate to reveal the near-wall structure.",
+          "bytes": 914357,
+          "width": 2000,
+          "height": 1500
+        }
+      ],
+      "figure_label": "Figure 11",
+      "caption": "Which measurements would best inform a turbulence model? These maps show mean information-gain estimates from 22 repeated multifidelity estimation trials near a flat plate. The right panel uses a logarithmic vertical coordinate to reveal the near-wall structure. Color represents the estimated information gain, rather than velocity or prediction error.",
+      "alt": "Estimated expected information gain across sensor locations near a turbulent boundary layer, shown with a linear vertical coordinate. The same estimated information-gain field with a logarithmic vertical coordinate to reveal the near-wall structure.",
+      "source_url": "https://arxiv.org/html/2501.10845v2#S5.F11",
+      "asset_source_urls": [
+        "https://arxiv.org/html/2501.10845v2/tricontour_means_nology.svg",
+        "https://arxiv.org/html/2501.10845v2/tricontour_means.svg"
+      ],
+      "credit": "Coons and Huan (2025), arXiv:2501.10845v2, Figure 11. CC BY 4.0. Related article: SIAM/ASA Journal on Uncertainty Quantification (2025).",
+      "license": {
+        "name": "Creative Commons Attribution 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence_url": "https://arxiv.org/abs/2501.10845v2"
+      },
+      "reuse_status": "Public preprint declares CC BY 4.0. Retain author/source/license attribution and indicate any changes; verify separately credited third-party material before public posting. Local review authorized.",
+      "display_note": "Faithful PNG rasterizations of the unchanged source vectors, for standard WordPress media support. Preserve both complete panels, axes, and color scales. This figure depicts information-gain estimates, not an unbiased estimate of exact EIG or a direct variance-reduction comparison.",
+      "original_vector_files": [
+        "assets/papers/mf-information-fig11a-eig.svg",
+        "assets/papers/mf-information-fig11b-eig-log.svg"
+      ],
+      "verified": {
+        "caption_checked": true,
+        "visual_inspection": true,
+        "scientific_content_changed": false
+      }
+    },
+    {
+      "project_slug": "adaptive-pilot",
+      "file": "assets/papers/pilot-fig1a-variance.png",
+      "files": [
+        {
+          "file": "assets/papers/pilot-fig1a-variance.png",
+          "panel": "Accuracy–cost tradeoff",
+          "alt": "Estimator variance falls initially and then rises as more of a fixed computational budget is spent on pilot sampling.",
+          "bytes": 75585,
+          "width": 800,
+          "height": 531
+        },
+        {
+          "file": "assets/papers/pilot-fig1b-variance-error.png",
+          "panel": "Uncertainty in variance prediction",
+          "alt": "Predicted and actual estimator variance differ sharply with very few pilot samples and become closer as pilot sampling increases.",
+          "bytes": 89624,
+          "width": 800,
+          "height": 543
+        }
+      ],
+      "figure_label": "Figure 1",
+      "caption": "Pilot sampling has both a benefit and a cost. In this benchmark, too little pilot data leads to poor allocation, while too much leaves insufficient budget for the final estimate (left). A small pilot sample can also yield overconfident variance predictions (right). Dashed lines mark single-fidelity Monte Carlo and exact-covariance reference cases.",
+      "alt": "Estimator variance falls initially and then rises as more of a fixed computational budget is spent on pilot sampling. Predicted and actual estimator variance differ sharply with very few pilot samples and become closer as pilot sampling increases.",
+      "source_url": "https://arxiv.org/html/2508.18490v1#S1.F1",
+      "asset_source_urls": [
+        "https://arxiv.org/html/2508.18490v1/figures/Fig1a.png",
+        "https://arxiv.org/html/2508.18490v1/figures/Fig1b.png"
+      ],
+      "credit": "Coons, Jivani, and Huan (2025), arXiv:2508.18490v1, Figure 1. CC BY 4.0.",
+      "license": {
+        "name": "Creative Commons Attribution 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence_url": "https://arxiv.org/abs/2508.18490v1"
+      },
+      "reuse_status": "Public preprint declares CC BY 4.0. Retain author/source/license attribution and indicate any changes; verify separately credited third-party material before public posting. Local review authorized.",
+      "display_note": "Show the two original unchanged panels with their separate ranges. The left panel uses the full budget range; the right focuses on the early pilot stage. This motivating example is not itself a comparison of adaptive stopping algorithms.",
+      "verified": {
+        "caption_checked": true,
+        "visual_inspection": true,
+        "scientific_content_changed": false
+      }
+    }
+  ],
+  "optional_assets": [
+    {
+      "file": "assets/papers/bvsi-fig15-noise-resolution.png",
+      "project_slug": "model-learning",
+      "figure_label": "Figure 15",
+      "source_url": "https://arxiv.org/html/2606.14942v1#S4.F15",
+      "caption": "Parameter-estimation error across observation-noise levels and spatial resolutions for the Fokker–Planck example.",
+      "alt": "Log-scale parameter error comparison of classical VSI and B-VSI maximum-likelihood estimation at four grid resolutions.",
+      "use": "Optional alternate; main recommendation is Figure 5 mean/variance pair.",
+      "width": 1749,
+      "height": 1298,
+      "bytes": 230278,
+      "verified": {
+        "caption_checked": true,
+        "visual_inspection": true,
+        "scientific_content_changed": false
+      },
+      "license": {
+        "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "evidence_url": "https://arxiv.org/abs/2606.14942v1"
+      },
+      "reuse_status": "Public preprint declares CC BY-NC-SA 4.0. Local review authorized. Public reuse must follow attribution, noncommercial and applicable ShareAlike terms; confirm no separate third-party restrictions.",
+      "asset_source_url": "https://arxiv.org/html/2606.14942v1/fig35.png",
+      "credit": "Huang et al. (2026), arXiv:2606.14942v1, Figure 15. CC BY-NC-SA 4.0."
+    },
+    {
+      "project_slug": "multifidelity",
+      "file": "assets/papers/multifidelity-fig17-uq-comparison.jpg",
+      "figure_label": "Figure 17",
+      "source_url": "https://arxiv.org/html/2511.03756v1#S4.F17",
+      "asset_source_url": "https://arxiv.org/html/2511.03756v1/figs_main/fig_uq_results_al_rs_jet.jpg",
+      "caption": "Forward uncertainty predictions for three jet quantities: active-learning bifidelity surrogates (top row) and randomly sampled surrogates (bottom row), compared with high- and low-fidelity surrogate estimates. Curves and intervals summarize the mean and one standard deviation.",
+      "alt": "Six plots compare high-fidelity, bifidelity and low-fidelity means and uncertainty intervals along the jet lipline.",
+      "credit": "Jivani et al. (2025), arXiv:2511.03756v1, Figure 17. CC BY 4.0.",
+      "license": {
+        "name": "Creative Commons Attribution 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "evidence_url": "https://arxiv.org/abs/2511.03756v1"
+      },
+      "reuse_status": "Public preprint declares CC BY 4.0. Retain author/source/license attribution and indicate any changes; verify separately credited third-party material before public posting. Local review authorized.",
+      "use": "Optional supporting result; preserve full figure and readable legend. Not needed as the introductory visual.",
+      "width": 3730,
+      "height": 1631,
+      "bytes": 661350,
+      "verified": {
+        "caption_checked": true,
+        "visual_inspection": true,
+        "scientific_content_changed": false
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "project_slug": "space-weather",
+      "filename": "geodgp-global-dbh.png",
+      "asset_source_url": "https://csem.engin.umich.edu/GeoDGP/assets/regular_still_last_dBH.png",
+      "source_url": "https://csem.engin.umich.edu/GeoDGP/",
+      "kind": "Dated model forecast snapshot; not a figure extracted from the cited article",
+      "forecast_timestamp_utc": "2026-09-27T16:31:00",
+      "caption": "Example GeoDGP forecast of horizontal magnetic perturbations for 27 September 2026, 16:31 UTC. This saved snapshot illustrates the model output and does not update live.",
+      "alt": "Global map of forecast horizontal magnetic perturbations, with stronger perturbations at high latitudes and a color scale in nanoteslas.",
+      "credit": "GeoDGP, University of Michigan; forecast snapshot retrieved 27 September 2026.",
+      "license": {
+        "name": "No explicit image reuse license located on the public forecast page",
+        "evidence_url": "https://csem.engin.umich.edu/GeoDGP/"
+      },
+      "reuse_status": "Existing public university model-output image saved for the user-author’s private offline review. Public-posting rights not independently established. Do not infer the article’s license applies to this separate site asset.",
+      "related_paper_url": "https://doi.org/10.1029/2024SW004301",
+      "paper_figure_candidate": {
+        "figure_label": "Figure 10",
+        "source_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024SW004301",
+        "caption": "GeoDGP and Geospace horizontal magnetic perturbation forecasts during the May 2024 Gannon storm, compared with station observations.",
+        "status": "Caption verified on publisher HTML; asset not obtained."
+      },
+      "file": "assets/geodgp-global-dbh.png"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "adaptive-pilot": {
+    "title": "Deciding When Enough Pilot Simulations Have Been Run",
+    "description": "Adaptive pilot sampling for multifidelity estimation under a computational budget.",
+    "active": "Research"
+  },
+  "alumni": {
+    "title": "Alumni",
+    "description": "Former members of the UQ–SciML Group at the University of Michigan.",
+    "active": "People"
+  },
+  "applications": {
+    "title": "Applications and Collaborations",
+    "description": "Application collaborations connecting uncertainty quantification and scientific machine learning with engineering and science.",
+    "active": "Applications"
+  },
+  "battery-health": {
+    "title": "Inferring Battery Health from Partial Charging Data",
+    "description": "Physics-informed inference of battery health from partial charging data.",
+    "active": "Research"
+  },
+  "bibliography": {
+    "title": "Full Publication Bibliography",
+    "description": "The UQ–SciML Group’s full bibliography of manuscripts, journal papers, and conference papers.",
+    "active": "Publications"
+  },
+  "causal-learning": {
+    "title": "Designing Interventions for a Causal Question",
+    "description": "Goal-oriented sequential Bayesian experimental design for causal learning.",
+    "active": "Research"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Contact Xun Huan and the UQ–SciML Group about research collaborations and opportunities.",
+    "active": "Contact"
+  },
+  "flood-monitoring": {
+    "title": "Placing Flood Sensors Around a Prediction Goal",
+    "description": "Bayesian experimental design for placing urban flood sensors around monitoring objectives.",
+    "active": "Research"
+  },
+  "model-learning": {
+    "title": "Learning Governing Equations from Noisy Observations",
+    "description": "Bayesian system identification for learning governing equations from noisy observations.",
+    "active": "Research"
+  },
+  "multifidelity-information": {
+    "title": "Estimating Information Gain with Models of Different Costs",
+    "description": "Multifidelity computation for estimating expected information gain in experimental design.",
+    "active": "Research"
+  },
+  "multifidelity": {
+    "title": "Learning Uncertain Fields with Fewer Expensive Simulations",
+    "description": "Bifidelity surrogate modeling and active learning for uncertain fields.",
+    "active": "Research"
+  },
+  "news": {
+    "title": "News Archive",
+    "description": "A chronology of the UQ–SciML Group’s research, publications, presentations, and milestones.",
+    "active": "News"
+  },
+  "outings": {
+    "title": "Group Outings",
+    "description": "Photographs from UQ–SciML Group outings and conferences.",
+    "active": "People"
+  },
+  "people": {
+    "title": "People",
+    "description": "Meet the UQ–SciML Group at the University of Michigan, led by Xun Huan.",
+    "active": "People"
+  },
+  "publications": {
+    "title": "Selected Publications",
+    "description": "Selected UQ–SciML Group publications in experimental design, scientific learning, and computational uncertainty quantification.",
+    "active": "Publications"
+  },
+  "research": {
+    "title": "Research",
+    "description": "Bayesian experimental design, scientific machine learning and inverse problems, and computational uncertainty quantification.",
+    "active": "Research"
+  },
+  "sequential-design": {
+    "title": "Choosing Experiments and Deciding When to Stop",
+    "description": "Sequential Bayesian experimental design that considers both measurement selection and the decision to stop.",
+    "active": "Research"
+  },
+  "space-weather": {
+    "title": "Forecasting Space Weather with Predictive Uncertainty",
+    "description": "Probabilistic geomagnetic forecasts and predictive uncertainty with GeoDGP.",
+    "active": "Research"
+  },
+  "stories": {
+    "title": "Research Stories",
+    "description": "Nine research stories across the UQ–SciML Group’s three methodological themes.",
+    "active": "Research"
+  },
+  "teaching": {
+    "title": "Teaching",
+    "description": "Xun Huan’s courses in finite elements, differential equations, and computational and data-driven methods.",
+    "active": "Teaching"
+  },
+  "xun-huan": {
+    "title": "Xun Huan",
+    "description": "Biography, appointments, education, and contact details for Xun Huan at the University of Michigan.",
+    "active": "People"
+  }
+}

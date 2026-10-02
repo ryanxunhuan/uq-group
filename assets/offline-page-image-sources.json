@@ -1,0 +1,65 @@
+{
+  "captured": "2026-09-27",
+  "source_pages": [
+    "https://uq.engin.umich.edu/teaching/",
+    "https://uq.engin.umich.edu/outings/"
+  ],
+  "images": [
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2021/06/ME305.png",
+      "local": "assets/teaching-ME305.png"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2021/06/ME502.png",
+      "local": "assets/teaching-ME502.webp"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2021/06/ME599-001.png",
+      "local": "assets/teaching-ME599-001.png"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2021/02/plane.jpg",
+      "local": "assets/outing-plane.jpg"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2022/06/20220513_group-1024x768.jpg",
+      "local": "assets/outing-20220513_group-1024x768.jpg"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2021/02/hiking-1024x1024.jpg",
+      "local": "assets/outing-hiking-1024x1024.jpg"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2022/12/20221204_group-1024x768.jpg",
+      "local": "assets/outing-20221204_group-1024x768.jpg"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2022/02/Cafe_Zola_outing-768x576.jpg",
+      "local": "assets/outing-Cafe_Zola_outing-768x576.jpg"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2023/03/20230121_group-1024x768.jpg",
+      "local": "assets/outing-20230121_group-1024x768.jpg"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2023/03/image_50433025-1024x768.jpg",
+      "local": "assets/outing-image_50433025-1024x768.jpg"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2023/03/PXL_20230226_154702588-1024x576.jpg",
+      "local": "assets/outing-PXL_20230226_154702588-1024x576.jpg"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2023/03/PXL_20230302_161120328-1024x576.jpg",
+      "local": "assets/outing-PXL_20230302_161120328-1024x576.jpg"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2023/03/PXL_20230303_083124366-1024x576.jpg",
+      "local": "assets/outing-PXL_20230303_083124366-1024x576.jpg"
+    },
+    {
+      "url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2023/03/PXL_20230303_083927156-1024x576.jpg",
+      "local": "assets/outing-PXL_20230303_083927156-1024x576.jpg"
+    }
+  ]
+}

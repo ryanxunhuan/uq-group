@@ -1,0 +1,102 @@
+{
+  "environment-space": {
+    "file": "assets/papers/flood-fig8-location1.png",
+    "alt": "Expected information gain over candidate sensor locations for prediction target Location 1, with the target marked by a green triangle and best sensor by a black star.",
+    "caption": "Information gain for a flood-prediction target, with the most informative sensor location marked by a black star.",
+    "figure_label": "Figure 8, Location 1",
+    "source_url": "https://arxiv.org/html/2608.21182v1#S4.F8",
+    "credit": "Cheng et al. (2026), arXiv:2608.21182v1, Figure 8.",
+    "reuse_note": "Downloaded from the public author preprint for the user-author’s requested private offline review. The arXiv distribution license does not itself grant general public reuse; verify author/publisher rights before public posting.",
+    "asset_source_url": "https://arxiv.org/html/2608.21182v1/ul_single_loc1_single_time_UL_test.png",
+    "verified": {
+      "caption_checked": true,
+      "visual_inspection": true,
+      "scientific_content_changed": false
+    }
+  },
+  "aerospace-fluids": {
+    "file": "assets/papers/multifidelity-fig11-roundjet.png",
+    "alt": "A turbulent round jet emerging from a nozzle, shown as three-dimensional vortex structures and a two-dimensional vorticity slice.",
+    "caption": "Vortex structures and a vorticity slice in the turbulent round-jet case.",
+    "figure_label": "Figure 11",
+    "source_url": "https://arxiv.org/html/2511.03756v1#S4.F11",
+    "credit": "Jivani et al. (2025), arXiv:2511.03756v1, Figure 11. CC BY 4.0.",
+    "reuse_note": "Public preprint declares CC BY 4.0. Retain author/source/license attribution and indicate any changes; verify separately credited third-party material before public posting. Local review authorized.",
+    "asset_source_url": "https://arxiv.org/html/2511.03756v1/figs_main/Jet1Jet2_Combined.png",
+    "verified": {
+      "caption_checked": true,
+      "visual_inspection": true,
+      "scientific_content_changed": false
+    }
+  },
+  "energy": {
+    "file": "assets/papers/battery-fig1-framework.png",
+    "alt": "Six-part workflow showing charging data, parameter selection, a parameterized physics-informed neural network, inferred parameter evolution, state-of-health estimation, and application scenarios.",
+    "caption": "A physics-informed workflow connects charging data, internal aging parameters, and battery health.",
+    "figure_label": "Figure 1",
+    "source_url": "https://arxiv.org/html/2511.12053v1#S2.F1",
+    "credit": "Gu et al. (2025), arXiv:2511.12053v1, Figure 1. Related journal article: eTransportation 28 (2026), 100555.",
+    "reuse_note": "Downloaded from the public author preprint for the user-author’s requested private offline review. The arXiv distribution license does not itself grant general public reuse; verify author/publisher rights before public posting.",
+    "asset_source_url": "https://arxiv.org/html/2511.12053v1/Framework.png",
+    "verified": {
+      "caption_checked": true,
+      "visual_inspection": true,
+      "scientific_content_changed": false
+    }
+  },
+  "materials-manufacturing": {
+    "file": "assets/papers/bvsi-fig5a-mean.png",
+    "alt": "Posterior predictive mean of the Fokker–Planck potential over a two-dimensional spatial domain.",
+    "caption": "An inferred Fokker–Planck potential illustrates the Bayesian system-identification methods featured in the linked research story.",
+    "figure_label": "Figure 5(a)",
+    "source_url": "https://arxiv.org/html/2606.14942v1#S4.F5",
+    "credit": "Huang et al. (2026), arXiv:2606.14942v1, Figure 5. CC BY-NC-SA 4.0.",
+    "reuse_note": "Public preprint declares CC BY-NC-SA 4.0. Local review authorized. Public reuse must follow attribution, noncommercial and applicable ShareAlike terms; confirm no separate third-party restrictions.",
+    "asset_source_url": "https://arxiv.org/html/2606.14942v1/fig8.png",
+    "verified": {
+      "caption_checked": true,
+      "visual_inspection": true,
+      "scientific_content_changed": false
+    }
+  },
+  "health-biology": {
+    "file": "assets/papers/app-health-cancer-fig1.webp",
+    "alt": "Six-stage proposed workflow connecting live-cell microscopy, measurements of cell states and actions, mechanistic modeling, inverse reinforcement learning, and experimental validation.",
+    "caption": "A proposed workflow links single-cell measurements, mechanistic models, and inverse reinforcement learning to study cellular behavior.",
+    "figure_label": "Figure 1",
+    "source_url": "https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2024.1333760/full",
+    "credit": "Kinnunen et al. (2024), Frontiers in Systems Biology 4, 1333760, Figure 1. CC BY.",
+    "reuse_note": "Publisher-distributed unchanged figure. The public article declares CC BY; retain author/source attribution. This is a proposed framework in a Perspective, not an experimentally validated cancer treatment.",
+    "asset_source_url": "https://www.frontiersin.org/files/Articles/1333760/xml-images/fsysb-04-1333760-g001.webp",
+    "verified": {
+      "caption_checked": true,
+      "visual_inspection": true,
+      "scientific_content_changed": false
+    }
+  },
+  "human-decisions": {
+    "file": "assets/papers/app-human-data-scarcity-fig7.png",
+    "alt": "Expected information gain before data collection and realized information gain after collection, plotted against behavior dataset size, with uncertainty bands.",
+    "caption": "Expected and observed information gain as the behavior dataset grows.",
+    "figure_label": "Figure 7",
+    "source_url": "https://e-hail.umich.edu/wp-content/uploads/sites/48/2023/03/Banovic-article2.pdf#page=18",
+    "credit": "Hossain et al. (2023), ACM Transactions on Computer-Human Interaction 30(1), Article 8, Figure 7. DOI: 10.1145/3551388.",
+    "reuse_note": "Complete Figure 7 extracted from page 18 of the University of Michigan public PDF, without altering plot, labels, colors, or uncertainty bands. Copyright held by the owner/author(s), publication rights licensed to ACM. Provided for the author-requested private offline review; verify author/publisher public-reuse rights before posting.",
+    "asset_source_url": "https://e-hail.umich.edu/wp-content/uploads/sites/48/2023/03/Banovic-article2.pdf",
+    "extraction": {
+      "tool": "pdftoppm",
+      "page": 18,
+      "scale_to": 3200,
+      "x": 540,
+      "y": 1034,
+      "width": 1070,
+      "height": 670,
+      "description": "Complete figure bounds; page prose/caption excluded and a concise caption supplied separately."
+    },
+    "verified": {
+      "caption_checked": true,
+      "visual_inspection": true,
+      "scientific_content_changed": false
+    }
+  }
+}

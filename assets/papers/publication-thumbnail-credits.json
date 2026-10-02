@@ -1,0 +1,221 @@
+{
+  "https://arxiv.org/abs/2407.16212": {
+    "file": "assets/papers/acta-review-fig21a-information-gain.png",
+    "alt": "Expected information gain about an unknown source location across candidate sensor positions in a time-dependent advection–diffusion problem.",
+    "caption": "Information gain guides sensor placement.",
+    "figure_label": "Figure 2.1(a)",
+    "credit": "Huan, Jagalur, and Marzouk (2024), arXiv:2407.16212v1, Figure 2.1(a).",
+    "license": {
+      "name": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://arxiv.org/abs/2407.16212v1"
+    },
+    "reuse_note": "Public preprint declares CC BY 4.0. Complete original panel retained without alteration, with author, source, and license attribution.",
+    "source_url": "https://arxiv.org/html/2407.16212v1#S2.F1",
+    "asset_source_url": "https://arxiv.org/html/2407.16212v1/figures/criteria/KL_nonGOOED_new.png",
+    "verified": {
+      "caption_checked": true,
+      "visual_inspection": true,
+      "scientific_content_changed": false
+    }
+  },
+  "https://arxiv.org/abs/2509.21734": {
+    "file": "assets/papers/stopping-fig2-flowchart.png",
+    "alt": "Sequential decision diagram: each belief state branches to stopping or to experiment design and observation, followed by a Bayesian update and another decision.",
+    "caption": "Designing experiments and deciding when to stop",
+    "figure_label": "Figure 2",
+    "source_url": "https://arxiv.org/html/2509.21734v3#S2.F2",
+    "credit": "Cheng and Huan (2026 revision), arXiv:2509.21734v3, Figure 2.",
+    "license": {
+      "name": "arXiv non-exclusive distribution license",
+      "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "evidence_url": "https://arxiv.org/abs/2509.21734v3"
+    },
+    "reuse_note": "Downloaded from the public author preprint for the user-author’s requested private offline review. The arXiv distribution license does not itself grant general public reuse; verify author/publisher rights before public posting."
+  },
+  "https://openreview.net/forum?id=6dVCZT7pO2": {
+    "file": "assets/papers/causal-fig1a-graph.png",
+    "alt": "Six-node causal graph highlighting an intervention on X3 and target outcomes X5 and X6.",
+    "caption": "Experiments guided by a causal question",
+    "figure_label": "Figure 1",
+    "source_url": "https://arxiv.org/html/2507.07359v1#S1.F1",
+    "credit": "Zhang, Dong, Liu, and Huan (2025), arXiv:2507.07359v1, Figure 1. Related article: TMLR (2026).",
+    "license": {
+      "name": "arXiv non-exclusive distribution license",
+      "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "evidence_url": "https://arxiv.org/abs/2507.07359v1"
+    },
+    "reuse_note": "Downloaded from the public author preprint for the user-author’s requested private offline review. The arXiv distribution license does not itself grant general public reuse; verify author/publisher rights before public posting."
+  },
+  "https://arxiv.org/abs/2404.13056": {
+    "file": "assets/papers/voed-flows-fig1-diagram.png",
+    "alt": "A conditional invertible neural network uses a summary of observations and successive normalizing-flow transformations to connect a flexible posterior distribution with a standard reference density.",
+    "caption": "Normalizing flows for flexible posterior approximations.",
+    "figure_label": "Figure 1",
+    "credit": "Dong et al. (2025 revision), arXiv:2404.13056v2, Figure 1.",
+    "source_url": "https://arxiv.org/html/2404.13056v2#S3.F1",
+    "asset_source_url": "https://arxiv.org/html/2404.13056v2/NFs_Diagram.png",
+    "license": {
+      "name": "arXiv non-exclusive distribution license",
+      "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "evidence_url": "https://arxiv.org/abs/2404.13056v2"
+    },
+    "reuse_note": "Downloaded from the public author preprint for the author’s requested private offline website draft. This arXiv distribution license does not itself grant general public reuse; retain attribution and check publication rights before public posting.",
+    "verified": {
+      "caption_checked": true,
+      "visual_inspection": true,
+      "scientific_content_changed": false
+    }
+  },
+  "https://arxiv.org/abs/2608.21182": {
+    "file": "assets/papers/flood-fig8-location1.png",
+    "alt": "Expected information gain over candidate sensor locations for prediction target Location 1, with the target marked by a green triangle and best sensor by a black star.",
+    "caption": "Information-guided flood-sensor placement",
+    "figure_label": "Figure 8",
+    "source_url": "https://arxiv.org/html/2608.21182v1#S4.F8",
+    "credit": "Cheng et al. (2026), arXiv:2608.21182v1, Figure 8.",
+    "license": {
+      "name": "arXiv non-exclusive distribution license",
+      "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "evidence_url": "https://arxiv.org/abs/2608.21182v1"
+    },
+    "reuse_note": "Downloaded from the public author preprint for the user-author’s requested private offline review. The arXiv distribution license does not itself grant general public reuse; verify author/publisher rights before public posting."
+  },
+  "https://arxiv.org/abs/2606.14942": {
+    "file": "assets/papers/bvsi-fig5a-mean.png",
+    "alt": "Posterior predictive mean of the Fokker–Planck potential over a two-dimensional spatial domain.",
+    "caption": "Inferring physical models from data",
+    "figure_label": "Figure 5",
+    "source_url": "https://arxiv.org/html/2606.14942v1#S4.F5",
+    "credit": "Huang et al. (2026), arXiv:2606.14942v1, Figure 5. CC BY-NC-SA 4.0.",
+    "license": {
+      "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "evidence_url": "https://arxiv.org/abs/2606.14942v1"
+    },
+    "reuse_note": "Public preprint declares CC BY-NC-SA 4.0. Local review authorized. Public reuse must follow attribution, noncommercial and applicable ShareAlike terms; confirm no separate third-party restrictions."
+  },
+  "https://arxiv.org/abs/2511.12053": {
+    "file": "assets/papers/battery-fig1-framework.png",
+    "alt": "Six-part workflow showing charging data, parameter selection, a parameterized physics-informed neural network, inferred parameter evolution, state-of-health estimation, and application scenarios.",
+    "caption": "Physics-informed battery diagnostics",
+    "figure_label": "Figure 1",
+    "source_url": "https://arxiv.org/html/2511.12053v1#S2.F1",
+    "credit": "Gu et al. (2025), arXiv:2511.12053v1, Figure 1. Related journal article: eTransportation 28 (2026), 100555.",
+    "license": {
+      "name": "arXiv non-exclusive distribution license",
+      "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "evidence_url": "https://arxiv.org/abs/2511.12053v1"
+    },
+    "reuse_note": "Downloaded from the public author preprint for the user-author’s requested private offline review. The arXiv distribution license does not itself grant general public reuse; verify author/publisher rights before public posting."
+  },
+  "https://arxiv.org/abs/2605.03710": {
+    "file": "assets/papers/amortized-vi-fig14-cook-membrane.png",
+    "alt": "Finite-element geometry for the Cook’s membrane benchmark: a tapered panel fixed at the left and loaded at the right, with marked displacement evaluation locations.",
+    "caption": "A mechanics benchmark for joint posterior and predictive inference.",
+    "figure_label": "Figure 14",
+    "credit": "Feng and Huan (2026), arXiv:2605.03710v1, Figure 14.",
+    "conversion": "Faithful PNG rendering of the complete source SVG, retaining the geometry, colors, annotations and labels. Original SVG retained.",
+    "source_url": "https://arxiv.org/html/2605.03710v1#S4.F14",
+    "asset_source_url": "https://arxiv.org/html/2605.03710v1/fem_problem.svg",
+    "license": {
+      "name": "arXiv non-exclusive distribution license",
+      "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "evidence_url": "https://arxiv.org/abs/2605.03710v1"
+    },
+    "reuse_note": "Downloaded from the public author preprint for the author’s requested private offline website draft. This arXiv distribution license does not itself grant general public reuse; retain attribution and check publication rights before public posting.",
+    "verified": {
+      "caption_checked": true,
+      "visual_inspection": true,
+      "scientific_content_changed": false
+    }
+  },
+  "https://arxiv.org/abs/1801.06768": {
+    "file": "assets/papers/model-error-fig4b-prediction.png",
+    "alt": "Calibrated exponential-model prediction with a model-error uncertainty band compared with synthetic observations; the small posterior-uncertainty component is barely visible at this scale.",
+    "caption": "Predictive uncertainty with embedded model error.",
+    "figure_label": "Figure 4, middle panel",
+    "credit": "Sargsyan, Huan, and Najm (2019), arXiv:1801.06768v2, Figure 4, middle panel.",
+    "source_url": "https://arxiv.org/html/1801.06768v2#S4.F4",
+    "asset_source_url": "https://arxiv.org/html/1801.06768v2/fitexp_exp_abc.png",
+    "license": {
+      "name": "arXiv non-exclusive distribution license",
+      "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "evidence_url": "https://arxiv.org/abs/1801.06768v2"
+    },
+    "reuse_note": "Downloaded from the public author preprint for the author’s requested private offline website draft. This arXiv distribution license does not itself grant general public reuse; retain attribution and check publication rights before public posting.",
+    "verified": {
+      "caption_checked": true,
+      "visual_inspection": true,
+      "scientific_content_changed": false
+    }
+  },
+  "https://arxiv.org/abs/2511.03756": {
+    "file": "assets/papers/multifidelity-fig11-roundjet.png",
+    "alt": "A turbulent round jet emerging from a nozzle, shown as three-dimensional vortex structures and a two-dimensional vorticity slice.",
+    "caption": "Learning from multiple simulation fidelities",
+    "figure_label": "Figure 11",
+    "source_url": "https://arxiv.org/html/2511.03756v1#S4.F11",
+    "credit": "Jivani et al. (2025), arXiv:2511.03756v1, Figure 11. CC BY 4.0.",
+    "license": {
+      "name": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://arxiv.org/abs/2511.03756v1"
+    },
+    "reuse_note": "Public preprint declares CC BY 4.0. Retain author/source/license attribution and indicate any changes; verify separately credited third-party material before public posting. Local review authorized."
+  },
+  "https://doi.org/10.1137/25M1731812": {
+    "file": "assets/papers/mf-information-fig11b-eig-log.png",
+    "alt": "The same estimated information-gain field with a logarithmic vertical coordinate to reveal the near-wall structure.",
+    "caption": "Estimating information gain with multiple fidelities",
+    "figure_label": "Figure 11",
+    "source_url": "https://arxiv.org/html/2501.10845v2#S5.F11",
+    "credit": "Coons and Huan (2025), arXiv:2501.10845v2, Figure 11. CC BY 4.0. Related article: SIAM/ASA Journal on Uncertainty Quantification (2025).",
+    "license": {
+      "name": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://arxiv.org/abs/2501.10845v2"
+    },
+    "reuse_note": "Public preprint declares CC BY 4.0. Retain author/source/license attribution and indicate any changes; verify separately credited third-party material before public posting. Local review authorized."
+  },
+  "https://arxiv.org/abs/2508.18490": {
+    "file": "assets/papers/pilot-fig1a-variance.png",
+    "alt": "Estimator variance falls initially and then rises as more of a fixed computational budget is spent on pilot sampling.",
+    "caption": "Balancing pilot sampling and final estimation",
+    "figure_label": "Figure 1",
+    "source_url": "https://arxiv.org/html/2508.18490v1#S1.F1",
+    "credit": "Coons, Jivani, and Huan (2025), arXiv:2508.18490v1, Figure 1. CC BY 4.0.",
+    "license": {
+      "name": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "evidence_url": "https://arxiv.org/abs/2508.18490v1"
+    },
+    "reuse_note": "Public preprint declares CC BY 4.0. Retain author/source/license attribution and indicate any changes; verify separately credited third-party material before public posting. Local review authorized."
+  },
+  "https://doi.org/10.1029/2024SW004301": {
+    "file": "assets/papers/pub-geodgp-fig1-stations.png",
+    "alt": "World map of magnetometer stations grouped into eight clusters according to the correlation of horizontal magnetic perturbations during the May 2024 Gannon storm.",
+    "caption": "Spatial relationships among magnetometer observations.",
+    "figure_label": "Figure 1",
+    "source_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024SW004301",
+    "asset_source_url": "https://www.researchgate.net/publication/392493507/figure/fig1/AS:11431281488412139@1749296500035/Hierarchical-clustering-of-magnetometer-stations-based-on-the-correlation-of-dBH.png",
+    "credit": "Chen et al. (2025), Space Weather 23, e2024SW004301, Figure 1. © 2025 The Authors. CC BY-NC-ND 4.0.",
+    "license": {
+      "name": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "evidence_url": "https://www.researchgate.net/publication/392493507_GeoDGP_One-Hour_Ahead_Global_Probabilistic_Geomagnetic_Perturbation_Forecasting_Using_Deep_Gaussian_Process"
+    },
+    "reuse_note": "Publisher-provided full-text copy on ResearchGate explicitly states this license on page1. Use the unchanged original figure with attribution for this noncommercial draft. Do not alter scientific contents or recolor.",
+    "verified": {
+      "caption_checked": true,
+      "visual_inspection": true,
+      "scientific_content_changed": false
+    },
+    "extraction": {
+      "method": "Browser capture of the publicly displayed PNG at native 850 × 421 size; viewport matched the full image bounds at x=0, y=0.",
+      "width": 850,
+      "height": 421,
+      "scientific_content_changed": false
+    }
+  }
+}
