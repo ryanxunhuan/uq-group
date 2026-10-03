@@ -37,6 +37,14 @@ The build automatically takes the first five announcements from `content/pages/n
 
 Edit the selected papers in `content/pages/publications.html` and the complete record in `content/pages/bibliography.html`. A new story needs a page file, metadata, and a link from `content/pages/stories.html`.
 
+## Paper Downloads
+
+Public paper PDFs are stored in `static/papers/` and published at `papers/`. Link to them with relative addresses such as `papers/huan-2018-compressive-sensing.pdf`. Keep filenames stable so shared download links continue to work. The original source URLs, retrieval dates, page counts, and SHA-256 hashes are recorded in `paper-sources.json`.
+
+The 14 papers formerly linked through Google Drive are bundled with the site. Publisher and arXiv links remain separate. The existing `pdf` and `preprint` labels identify the same versions as before.
+
+The airfoil pressure-tap preprint is also served at `wp-content/uploads/sites/521/2021/02/2020_shzg_aiaa_scitech.pdf` to preserve its former WordPress path after a custom-domain transition. This alias uses the verified Drive copy because the WordPress download was unavailable; byte identity with the old WordPress file is unverified. Keep the alias when replacing or reorganizing that paper.
+
 ## Put the Site on GitHub Pages
 
 1. Create a GitHub repository with `main` as its default branch. An ordinary repository gives an address in the form `https://USERNAME.github.io/REPOSITORY/`. A repository named `USERNAME.github.io` gives `https://USERNAME.github.io/`.

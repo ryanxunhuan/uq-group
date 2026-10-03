@@ -1,0 +1,190 @@
+[
+  {
+    "year": "2018",
+    "title": "Compressive sensing with cross-validation and stop-sampling for sparse polynomial chaos expansions",
+    "doi": "https://doi.org/10.1137/17M1141096",
+    "sources": [
+      "https://drive.google.com/file/d/15uWRJbKVjufxaJgEVxim9KvT7ORIlkhG/view"
+    ],
+    "bytes": 2623065,
+    "sha256": "2086ef342763b32200d48d655c17e3bfbdabafe0a5001bf1e131f30970e8d504",
+    "pages": 30,
+    "path": "papers/huan-2018-compressive-sensing.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2023",
+    "title": "Multi-fidelity propeller noise prediction using a data-driven approach",
+    "doi": "https://doi.org/10.2514/6.2023-4184",
+    "sources": [
+      "https://drive.google.com/file/d/1QMvHbkBtahCIrWBd7fL6aajNYGPA9S_s/view?usp=sharing"
+    ],
+    "bytes": 5125798,
+    "sha256": "ce1b5741933946f5869154c07c6fb9f4fbf5ac07af4a48865bbcd016657a8f69",
+    "pages": 15,
+    "path": "papers/zhou-2023-propeller-noise.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2022",
+    "title": "A data-driven approach for enhancement of propeller performance prediction",
+    "doi": "https://doi.org/10.2514/6.2022-3106",
+    "sources": [
+      "https://drive.google.com/file/d/1aNfJL6XPhfLkTY5ZapAj93uNduqL-C-W/view?usp=sharing"
+    ],
+    "bytes": 4623647,
+    "sha256": "dfe8a40cb659e3a60a923ae61ebc9d70b044a1d40c234a48d70a67b9e67dc9ab",
+    "pages": 13,
+    "path": "papers/zhou-2022-propeller-performance.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2022",
+    "title": "Bayesian recurrent neural networks for monitoring rotorcraft icing from aeroacoustics time-series data",
+    "doi": "https://doi.org/10.2514/6.2022-2358",
+    "sources": [
+      "https://drive.google.com/file/d/1E7ZjSo6oSnN1BorWtlvOhhD9lzOJi5kx/view?usp=sharing"
+    ],
+    "bytes": 660154,
+    "sha256": "18915006014d8abc0a2f147f7bafbd6ab6537da7be567543a87c80238b8b5531",
+    "pages": 13,
+    "path": "papers/tong-2022-rotorcraft-icing.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2021",
+    "title": "Uncertainty quantification for a turbulent round jet using multifidelity Karhunen–Loeve expansions",
+    "doi": "https://doi.org/10.2514/6.2021-1367",
+    "sources": [
+      "https://drive.google.com/file/d/1ygicXLqmxVwX-EtBhZFaR41rh7QjHdai/view"
+    ],
+    "bytes": 3954263,
+    "sha256": "242b1e7835a77438a8de506f29dbe35f1e9daf1e4dd6569ebd3662dff93b48fe",
+    "pages": 16,
+    "path": "papers/jivani-2021-turbulent-round-jet.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2020",
+    "title": "Towards design of airfoil pressure tap locations for real-time predictions under uncertainty using Bayesian neural networks",
+    "doi": "https://doi.org/10.2514/6.2020-0906",
+    "sources": [
+      "https://drive.google.com/file/d/1SA7TmgkB4bae5xiRlcRkLUiVihJ92o4K/view?usp=sharing",
+      "https://drive.google.com/file/d/1SA7TmgkB4bae5xiRlcRkLUiVihJ92o4K/view"
+    ],
+    "bytes": 5148386,
+    "sha256": "e92f14396c1fb38005a10ee82be6ad399157d6af1536cf063d7b65a79d616875",
+    "pages": 13,
+    "path": "papers/shen-2020-airfoil-pressure-taps.pdf",
+    "retrieved": "2026-10-02",
+    "legacy_paths": [
+      "wp-content/uploads/sites/521/2021/02/2020_shzg_aiaa_scitech.pdf"
+    ],
+    "legacy_source_url": "https://uq.engin.umich.edu/wp-content/uploads/sites/521/2021/02/2020_shzg_aiaa_scitech.pdf",
+    "legacy_note": "The WordPress URL could not be retrieved (HTTP 403 by direct request; HTTP 404 in browser). This legacy path serves the validated Google Drive preprint of the same paper. Byte identity with the former WordPress file is unverified."
+  },
+  {
+    "year": "2020",
+    "title": "Development of a real-time in-flight ice detection system via computational aeroacoustics and Bayesian neural networks",
+    "doi": "https://doi.org/10.2514/6.2020-1638",
+    "sources": [
+      "https://drive.google.com/file/d/15ocKriLC2zgNLlUFG1ex7BaesJxtun9T/view?usp=sharing"
+    ],
+    "bytes": 5316317,
+    "sha256": "641098a5c1d145061c51900b46bcc7cf6c9a5c79129a5dd682ad82e3e1de192f",
+    "pages": 14,
+    "path": "papers/zhou-2020-ice-detection.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2020",
+    "title": "Correlation effects in Bayesian neural networks for computational aeroacoustics ice detection",
+    "doi": "https://doi.org/10.2514/6.2020-1414",
+    "sources": [
+      "https://drive.google.com/file/d/1SZHKwVBA4-l4Rwyw-yUUuDczX9KMtpYv/view?usp=sharing"
+    ],
+    "bytes": 2902981,
+    "sha256": "08bb75fc6bc0b0261a3124210f5bd2915fc49d806e24c13e638ac92511a3f9ba",
+    "pages": 13,
+    "path": "papers/hauth-2020-correlation-effects.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2019",
+    "title": "Towards a real-time in-flight ice detection system via computational aeroacoustics and Bayesian neural networks",
+    "doi": "https://doi.org/10.2514/6.2019-3103",
+    "sources": [
+      "https://drive.google.com/file/d/1vgyMnheaOBV4n8rSk3pJj231w7_5C75S/view?usp=sharing"
+    ],
+    "bytes": 831602,
+    "sha256": "811143f8e8ddf236b151ce8dd39eea79a43c74516a557e18b366a4bc7e18447d",
+    "pages": 15,
+    "path": "papers/zhou-2019-ice-detection.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2019",
+    "title": "Uncertainty propagation using conditional random fields in large-eddy simulations of scramjet computations",
+    "doi": "https://doi.org/10.2514/6.2019-0724",
+    "sources": [
+      "https://drive.google.com/file/d/1HgnwLKm4GYakkLsPfUmupT0pSctNAQzW/view?usp=sharing"
+    ],
+    "bytes": 1978288,
+    "sha256": "96e3cc427fb108059796c2bb7116138807a81062767ae56488490b616a247a7e",
+    "pages": 17,
+    "path": "papers/huan-2019-conditional-random-fields.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2019",
+    "title": "Progress in scramjet design optimization under uncertainty using simulations of the HIFiRE direct connect rig",
+    "doi": "https://doi.org/10.2514/6.2019-0725",
+    "sources": [
+      "https://drive.google.com/file/d/1544QCKf9ZAiQL9zmhKhxeyvDLXLqCWxO/view?usp=sharing"
+    ],
+    "bytes": 1947174,
+    "sha256": "5c58aea3271d80ce5f80a52ab75048dcb56e5613c6a0050e50a737e341262860",
+    "pages": 20,
+    "path": "papers/geraci-2019-scramjet-design.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2018",
+    "title": "Multifidelity statistical analysis of large eddy simulations in scramjet computations",
+    "doi": "https://doi.org/10.2514/6.2018-1180",
+    "sources": [
+      "https://drive.google.com/file/d/1nSFUBVBP8eGUTRPUNuQhoDvG4e6x3Sv9/view?usp=sharing"
+    ],
+    "bytes": 878040,
+    "sha256": "a6b32e814b365a89aed44b03d3c038140c308bd41b2a524660110801e168ea02",
+    "pages": 11,
+    "path": "papers/huan-2018-multifidelity-scramjet.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2017",
+    "title": "Global sensitivity analysis and quantification of model error for large eddy simulation in scramjet design",
+    "doi": "https://doi.org/10.2514/6.2017-1089",
+    "sources": [
+      "https://drive.google.com/file/d/13L6iaMHNFLrrwGQPff7aoL3iGmH3e33T/view?usp=sharing"
+    ],
+    "bytes": 3586680,
+    "sha256": "26869b6b71aa2224b683692633b8033b06acc72f8888fc2840739f0083de8890",
+    "pages": 20,
+    "path": "papers/huan-2017-scramjet-sensitivity.pdf",
+    "retrieved": "2026-10-02"
+  },
+  {
+    "year": "2011",
+    "title": "Optimal Bayesian experimental design for combustion kinetics",
+    "doi": "https://doi.org/10.2514/6.2011-513",
+    "sources": [
+      "https://drive.google.com/file/d/1hjNIjoKY3a__rMysyrf-7BSLuA1iMPAT/view?usp=sharing"
+    ],
+    "bytes": 873431,
+    "sha256": "bbeccb62e2996c090f6fe0a08fde18233375b2563da24d14f88bf83d912aa63e",
+    "pages": 16,
+    "path": "papers/huan-2011-combustion-experimental-design.pdf",
+    "retrieved": "2026-10-02"
+  }
+]
