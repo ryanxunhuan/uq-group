@@ -1,6 +1,6 @@
 @font-face{font-family:Group Roboto;src:url('assets/fonts/roboto-latin.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
 
-:root{--paper:#fff;--wash:#f4f6f5;--ink:#00274c;--heading-section:#356878;--body:#343d45;--muted:#56636f;--line:#dfe4e8;--accent:#9b7940;--display:var(--sans);--sans:'Group Roboto',Arial,sans-serif;--max:1200px}
+:root{--paper:#fff;--wash:#f4f6f5;--ink:#00274c;--heading-section:#8a5a20;--body:#343d45;--muted:#56636f;--line:#dfe4e8;--accent:#9b7940;--display:var(--sans);--sans:'Group Roboto',Arial,sans-serif;--max:1200px}
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:36px}
@@ -121,7 +121,7 @@ button,summary{cursor:pointer}
 .sponsors{padding-top:28px;border-top:1px solid var(--line);text-align:left}
 .sponsors h2{font-size:30px;margin-bottom:8px}
 .sponsors>p{font-size:18px;color:var(--muted)}
-.sponsor-logos{max-width:880px;width:100%;margin:20px auto 0;background:#fff}
+.sponsor-logos{max-width:1000px;width:100%;margin:20px auto 0;background:#fff}
 .sponsor-logos img{width:100%;height:auto}
 .site-footer{background:#fff;border-top:1px solid var(--line);padding:24px 0 16px}
 .footer-main{display:flex;justify-content:space-between;gap:24px 40px;padding-bottom:12px}
