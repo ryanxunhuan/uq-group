@@ -246,10 +246,13 @@ button,summary{cursor:pointer}
 .page-teaching .section{border-bottom:1px solid var(--line);padding-bottom:24px}
 .page-teaching .section>h2{font-size:30px}
 .outing-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start;margin-top:20px}
-.outing-gallery figcaption{font-size:18px}
+.outing-gallery figcaption{font-size:18px;line-height:1.5}
+.outing-gallery figcaption time{display:block;color:var(--muted);margin-top:4px}
+.outing-year+.outing-year{border-top:1px solid var(--line);padding-top:8px}
 .outing-photo{display:block;position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--wash)}
-.outing-photo img{width:100%;height:100%;object-fit:cover}
-/* Display crops preserve the original files linked by each gallery image.
+.outing-photo img{width:100%;height:100%;object-fit:contain}
+.outing-photo--portrait{aspect-ratio:3/4}
+/* Display crops preserve the original photo files; gallery photos are not links.
    Pinckney 2: (430,242), 1040 x 780; Pinckney 3: (880,400), 1680 x 1260. */
 .outing-photo--pinckney-two img{position:absolute;max-width:none;width:174.231%;height:auto;left:-41.346%;top:-31.026%}
 .outing-photo--pinckney-three img{position:absolute;max-width:none;width:194.048%;height:auto;left:-52.381%;top:-31.746%}
