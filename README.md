@@ -69,6 +69,6 @@ The verification includes preservation checks for at least 240 news entries and 
 
 Scientific figures retain their paper links and captions. Asset source records and bundled font license files are retained with the assets. Publication figures, photographs, university marks, sponsor logos, and fonts may have their own rights and terms. No blanket license is assigned to those materials or to the new site source code; the site owner can choose an appropriate source-code license separately.
 
-The live GeoDGP image is supplied by its external project. Its availability depends on that service; the site includes a local fallback image.
+The space-weather research story includes a dated GeoDGP forecast snapshot and links to the external project for current forecasts.
 
 The workflow action versions were checked against the official action releases when this package was prepared: [checkout](https://github.com/actions/checkout/releases), [setup-python](https://github.com/actions/setup-python/releases), [configure-pages](https://github.com/actions/configure-pages/releases), [upload-pages-artifact](https://github.com/actions/upload-pages-artifact/releases), and [deploy-pages](https://github.com/actions/deploy-pages/releases).

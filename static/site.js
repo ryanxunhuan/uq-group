@@ -1,17 +1,4 @@
 'use strict';
-// Keep the dated figure available while the forecast service loads.
-const forecast = document.querySelector('[data-latest-forecast]');
-if (forecast) {
-  const latest = new Image();
-  latest.addEventListener('load', () => {
-    forecast.src = latest.src;
-    forecast.alt = 'Latest available GeoDGP global magnetic-perturbation forecast; UTC forecast time appears on the map';
-    forecast.closest('a').href = latest.src;
-    document.querySelector('#forecast-status').textContent = 'Latest Available Forecast';
-  });
-  latest.src = forecast.dataset.latestForecast;
-}
-
 // Progressive enhancement: every publication remains readable without JavaScript.
 const search = document.querySelector('#paper-search');
 if (search) {

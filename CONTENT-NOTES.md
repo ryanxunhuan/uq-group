@@ -30,7 +30,7 @@ The 21 non-home page fragments in `content/pages/` come from the reviewed `outpu
 
 ## Current Source Limits
 
-People, alumni, teaching histories, and events were preserved as reviewed; no new factual updates were inferred. The space-weather story uses its explicitly dated illustrative forecast. The home fragment retains the external latest-forecast feed, which depends on availability of the GeoDGP service. Source captions and provenance files should accompany reused scientific figures.
+People, alumni, teaching histories, and events were preserved as reviewed; no new factual updates were inferred. The space-weather story uses its explicitly dated illustrative forecast and links to the GeoDGP service for current forecasts. The home page has a text-only introduction. Source captions and provenance files should accompany reused scientific figures.
 
 
 ## Owner-Supplied Updates
