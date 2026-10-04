@@ -4,6 +4,7 @@ from pathlib import Path
 from html import escape
 from html.parser import HTMLParser
 from calendar import month_abbr
+from hashlib import sha256
 import argparse
 import json
 import re
@@ -109,7 +110,8 @@ def render_navigation(key, active):
 def render_page(key, body, meta):
     shell = (ROOT / 'templates/page.html').read_text()
     links = render_navigation(key, meta.get('active'))
-    replacements = {'title': escape(meta['title']), 'description': escape(meta['description'], quote=True), 'page': key, 'navigation': links, 'body': body}
+    style_version = sha256((ROOT / 'static/styles.css').read_bytes()).hexdigest()[:12]
+    replacements = {'title': escape(meta['title']), 'description': escape(meta['description'], quote=True), 'page': key, 'navigation': links, 'body': body, 'style_version': style_version}
     for name, value in replacements.items():
         shell = shell.replace('{{'+name+'}}', value)
     return shell
