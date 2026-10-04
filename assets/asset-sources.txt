@@ -10,3 +10,6 @@ hongfan-chen.jpg	https://uq.engin.umich.edu/wp-content/uploads/sites/521/2022/09
 ellen-meyer.jpg	https://uq.engin.umich.edu/wp-content/uploads/sites/521/2024/08/Ellen_Meyer_scaled-768x1005.jpg
 geodgp-global-dbh.png	https://csem.engin.umich.edu/GeoDGP/assets/regular_still_last_dBH.png
 geodgp-polar-dbh.png	https://csem.engin.umich.edu/GeoDGP/assets/polar_still_last_dBH.png
+outing-20230721-shiangmi.jpg	User-provided attachment: 20230721_group_ShiangMi.jpg; original photograph preserved. Full image linked from the gallery.
+outing-20241117-pinckney-2.jpg	User-provided attachment: 20241117_group_Pinckney_2.jpg; original photograph preserved. Gallery uses a CSS display crop; full image linked.
+outing-20241117-pinckney-3.jpg	User-provided attachment: 20241117_group_Pinckney_3.jpg; original photograph preserved. Gallery uses a CSS display crop; full image linked.

@@ -247,6 +247,13 @@ button,summary{cursor:pointer}
 .page-teaching .section>h2{font-size:30px}
 .outing-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start;margin-top:20px}
 .outing-gallery figcaption{font-size:18px}
+.outing-photo{display:block;position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--wash)}
+.outing-photo img{width:100%;height:100%;object-fit:cover}
+/* Display crops preserve the original files linked by each gallery image.
+   Pinckney 2: (430,242), 1040 x 780; Pinckney 3: (880,400), 1680 x 1260. */
+.outing-photo--pinckney-two img{position:absolute;max-width:none;width:174.231%;height:auto;left:-41.346%;top:-31.026%}
+.outing-photo--pinckney-three img{position:absolute;max-width:none;width:194.048%;height:auto;left:-52.381%;top:-31.746%}
+
 .contact-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(260px,1fr);gap:40px}
 .contact-grid h2{font-size:30px}
 .contact-grid h3{font-size:25px;margin:28px 0 18px}
