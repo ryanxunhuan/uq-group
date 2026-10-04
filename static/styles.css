@@ -1,14 +1,16 @@
 @font-face{font-family:Group Roboto;src:url('assets/fonts/roboto-latin.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
 
-:root{--paper:#fff;--wash:#f4f6f5;--ink:#00274c;--body:#343d45;--muted:#56636f;--line:#dfe4e8;--accent:#9b7940;--display:var(--sans);--sans:'Group Roboto',Arial,sans-serif;--max:1200px}
+:root{--paper:#fff;--wash:#f4f6f5;--ink:#00274c;--heading-section:#356878;--body:#343d45;--muted:#56636f;--line:#dfe4e8;--accent:#9b7940;--display:var(--sans);--sans:'Group Roboto',Arial,sans-serif;--max:1200px}
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:36px}
 body{margin:0;background:var(--paper);color:var(--body);font:20px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
 h1,h2,h3,h4{font-family:var(--display);font-weight:500;color:var(--ink);line-height:1.18;margin:0 0 24px;text-wrap:pretty}
 h1{font-size:clamp(40px,4.4vw,62px);letter-spacing:-.025em}
-h2{font-size:32px;letter-spacing:-.025em}
+h2{font-size:32px;letter-spacing:-.025em;color:var(--heading-section)}
 h3{font-size:25px;letter-spacing:-.018em}
+h3,h4{color:var(--body)}
+h1 a,h2 a,h3 a,h4 a{color:inherit}
 p{margin:0 0 16px}
 a{color:var(--ink);text-decoration-thickness:1px;text-underline-offset:4px}
 a:hover{color:#537885}
