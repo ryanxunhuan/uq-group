@@ -9,7 +9,8 @@ if (search) {
   const count = document.querySelector('#paper-count');
   const clear = document.querySelector('#clear-search');
   const empty = document.querySelector('#search-empty');
-  const headings = [...document.querySelectorAll(bibliography ? '.bibliography h2,.bibliography h3' : '.publication-list > h2')];
+  const headings = [...document.querySelectorAll(bibliography ? '.bibliography h2,.bibliography h3' : '.publication-theme > h2')];
+  const groups = [...document.querySelectorAll('.publication-theme')];
   document.querySelector('[data-search-tools]').hidden = false;
   // Preserve citation numbers when filtering ordered bibliographies.
   document.querySelectorAll('.bibliography ol').forEach(list => {
@@ -34,6 +35,9 @@ if (search) {
         next = next.nextElementSibling;
       }
       heading.hidden = !any;
+    });
+    groups.forEach(group => {
+      group.hidden = !items.some(item => group.contains(item) && !item.hidden);
     });
   }
   search.addEventListener('input', update);
