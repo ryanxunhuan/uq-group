@@ -142,6 +142,10 @@ button,summary{cursor:pointer}
 .page-intro{margin:0 0 24px;padding:0;border-bottom:0}
 .page-intro h1{max-width:1000px;margin-bottom:0;font-size:clamp(36px,3.4vw,44px);line-height:1.2}
 .page-intro .intro{font-size:19px;line-height:1.6;max-width:890px;margin:14px 0 0;color:var(--muted)}
+.heading-with-link{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px 24px}
+.page-profile-link{display:inline-flex;align-items:center;gap:9px;min-height:36px;font-size:19px;line-height:1.5;white-space:nowrap;text-decoration:none}
+.page-profile-link svg{width:20px;height:20px;flex-shrink:0;fill:currentColor}
+.page-profile-link:hover,.page-profile-link:focus-visible{text-decoration:underline}
 .section{margin:0 0 28px}
 .section:last-child{margin-bottom:0}
 .section>h2{margin-top:24px}
