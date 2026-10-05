@@ -61,6 +61,11 @@ button,summary{cursor:pointer}
 .eyebrow{font:18px/1.5 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:24px}
 .hero-lead{font-size:21px;line-height:1.6;margin-bottom:20px;max-width:780px;color:#e3ebf2}
 .hero-affiliation{font-size:20px;font-weight:400;color:#ffdf83;margin-bottom:0}
+.hero-profiles{display:flex;flex-wrap:wrap;gap:6px 28px;margin-top:12px}
+.hero-profiles a{display:inline-flex;align-items:center;gap:9px;min-height:36px;font-size:19px;line-height:1.5;color:#e3ebf2;text-decoration:none}
+.hero-profiles svg{width:20px;height:20px;flex-shrink:0;fill:currentColor}
+.hero-profiles a:hover,.hero-profiles a:focus-visible{color:#fff;text-decoration:underline}
+.hero-profiles a:focus-visible{outline-color:#ffdf83}
 .button{display:inline-flex;align-items:center;gap:40px;padding:12px 18px;font-size:18px;background:var(--ink);border:1px solid var(--ink);color:#fff;text-decoration:none}
 .button:hover{background:#3c5a68;color:white}
 .button.secondary{background:white;color:var(--ink)}
@@ -375,6 +380,7 @@ button,summary{cursor:pointer}
 
 @media print{.home-hero{background:white;box-shadow:none;clip-path:none;padding:0 0 28px}
 .home-hero h1,.home-hero p{color:#000}
+.hero-profiles a{color:#000}
 .site-header,.site-footer,.search-tools,.mobile-menu,.skip-link{display:none}
 .site-main{width:100%;padding:36px 0 48px}
 .pub,.project-card,.person,figure{break-inside:avoid}

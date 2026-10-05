@@ -20,3 +20,8 @@ outing-202409-more-2.jpg	User-provided attachment: 202409_MORe_2.jpg; original p
 outing-202512-everest-sherpa-1.jpg	User-provided attachment: 202512_Everest_Sherpa_1.jpg; original photograph preserved and displayed without an enlargement link.
 outing-202512-everest-sherpa-2.jpg	User-provided attachment: 202512_Everest_Sherpa_2.jpg; original photograph preserved and displayed without an enlargement link.
 outing-202512-yost-skating-2.jpg	User-provided attachment: 202512_Yost_Skating_2.jpg; original photograph preserved and displayed without an enlargement link.
+
+Inline Google Scholar and ORCID icons in content/home.html: Simple Icons (CC0), retrieved 2026-10-05.
+https://github.com/simple-icons/simple-icons/blob/develop/icons/googlescholar.svg
+https://github.com/simple-icons/simple-icons/blob/develop/icons/orcid.svg
+https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md
