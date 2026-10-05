@@ -17,6 +17,7 @@ NAV = [
     ('Research', 'research.html', [
         ('Research Overview', 'research.html'),
         ('Research Stories', 'stories.html'),
+        ('News Archive', 'news.html'),
     ]),
     ('Applications', 'applications.html', []),
     ('Publications', 'publications.html', [
@@ -29,7 +30,7 @@ NAV = [
         ('Alumni', 'alumni.html'),
         ('Group Outings', 'outings.html'),
     ]),
-    ('News', 'news.html', []),
+    ('Teaching', 'teaching.html', []),
     ('Contact', 'contact.html', []),
 ]
 
