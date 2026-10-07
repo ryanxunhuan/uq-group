@@ -17,6 +17,7 @@ NAV = [
     ('Research', 'research.html', [
         ('Research Overview', 'research.html'),
         ('Research Stories', 'stories.html'),
+        ('FLOODWARRIOR', 'https://ryanxunhuan.github.io/floodwarrior/'),
         ('News Archive', 'news.html'),
     ]),
     ('Applications', 'applications.html', []),
@@ -90,7 +91,10 @@ def render_navigation(key, active):
     def link(label, url, main=False):
         css_class = ' class="nav-link"' if main else ''
         current = ' aria-current="page"' if url == current_url else ''
-        return '<a' + css_class + ' href="' + escape(url, quote=True) + '"' + current + '>' + escape(label) + '</a>'
+        external = url.startswith(('https://', 'http://'))
+        target = ' target="_blank" rel="noopener noreferrer"' if external else ''
+        suffix = ' <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span>' if external else ''
+        return '<a' + css_class + ' href="' + escape(url, quote=True) + '"' + current + target + '>' + escape(label) + suffix + '</a>'
 
     items = []
     for label, url, children in NAV:
