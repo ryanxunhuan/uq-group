@@ -232,14 +232,15 @@ button,summary{cursor:pointer}
 .bibliography li{font-size:19px;line-height:1.6;margin-bottom:12px;padding-left:7px;overflow-wrap:anywhere}
 .bibliography ol{padding-left:28px}
 .pi-block{display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;align-items:start;margin:18px 0 28px}
-.pi-block>img{width:220px}
+.portrait-link{display:block}
+.pi-block>img,.pi-block>.portrait-link{width:220px}
 .pi-block h2{margin:0 0 19px;font-size:33px}
 .pi-block h3{font-size:26px;margin-bottom:18px}
 .pi-block p{font-size:19px;line-height:1.6}
 .people-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin:20px 0 32px}
 .person img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;margin-bottom:12px}
 .person h3{font-size:24px;line-height:1.25;margin-bottom:8px}
-.person h3 a{text-decoration:none}
+.pi-block h3 a,.person h3 a{text-decoration:none}
 .person p{font-size:18px;line-height:1.6;color:var(--muted)}
 .page-people .section>.wrap>h2{font-size:30px}
 .page-xun-huan .pi-block{grid-template-columns:250px minmax(0,1fr);gap:36px}
@@ -342,7 +343,7 @@ button,summary{cursor:pointer}
   .page-intro h1{font-size:36px}.page-intro .intro{font-size:20px}
   .research-section h2{font-size:29px}
   .pi-block,.page-xun-huan .pi-block{grid-template-columns:185px minmax(0,1fr);gap:28px}
-  .pi-block>img,.page-xun-huan .pi-block>img{width:185px}
+  .pi-block>img,.pi-block>.portrait-link,.page-xun-huan .pi-block>img{width:185px}
   .people-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
   .person h3{font-size:23px}
   .teaching-course{grid-template-columns:200px minmax(0,1fr)}
@@ -364,7 +365,7 @@ button,summary{cursor:pointer}
   .publication-figure img{height:160px}
   .search-line input{flex-basis:100%}
   .pi-block,.page-xun-huan .pi-block{grid-template-columns:1fr;gap:24px}
-  .pi-block>img,.page-xun-huan .pi-block>img{width:200px}
+  .pi-block>img,.pi-block>.portrait-link,.page-xun-huan .pi-block>img{width:200px}
   .person h3{font-size:22px}.people-grid{gap:24px 18px}
   .teaching-course{grid-template-columns:1fr}
   .course-image{max-width:300px;width:100%;margin:auto}
