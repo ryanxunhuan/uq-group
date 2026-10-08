@@ -99,7 +99,7 @@ button,summary{cursor:pointer}
 .collaborations .eyebrow{margin-bottom:18px}
 .collaborations h2{font-size:32px;margin-bottom:0}
 .collaborations p:not(.eyebrow){font-size:20px;max-width:900px;margin-bottom:12px}
-.collaborations p.project-mention{margin:22px 0 0;font-size:19px;line-height:1.5;color:var(--muted)}
+.collaborations p.project-mention{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px;margin:22px 0 0;font-size:19px;line-height:1.5;color:var(--muted)}
 .text-link{font-size:18px;text-decoration:none}
 .text-link span{margin-left:20px}
 .application-index a{display:block;align-items:center;justify-content:space-between;gap:20px;padding:0;border-bottom:0;font-size:19px;text-decoration:none;line-height:1.5}

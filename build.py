@@ -18,6 +18,7 @@ NAV = [
         ('Research Overview', 'research.html'),
         ('Research Stories', 'stories.html'),
         ('FLOODWARRIOR', 'https://ryanxunhuan.github.io/floodwarrior/'),
+        ('C-PRIME', 'https://c-prime.engin.umich.edu/home'),
         ('News Archive', 'news.html'),
     ]),
     ('Applications', 'applications.html', []),
