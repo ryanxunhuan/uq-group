@@ -17,7 +17,7 @@ NAV = [
     ('Research', 'research.html', [
         ('Research Overview', 'research.html'),
         ('Research Stories', 'stories.html'),
-        ('FLOODWARRIOR', 'https://ryanxunhuan.github.io/floodwarrior/'),
+        ('FLOODWARRIOR', 'https://floodwarrior.engin.umich.edu/'),
         ('C-PRIME', 'https://c-prime.engin.umich.edu/home'),
         ('News Archive', 'news.html'),
     ]),
