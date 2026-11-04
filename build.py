@@ -3,7 +3,6 @@
 from pathlib import Path
 from html import escape
 from html.parser import HTMLParser
-from calendar import month_abbr
 from hashlib import sha256
 import argparse
 import json
@@ -17,6 +16,7 @@ NAV = [
     ('Research', 'research.html', [
         ('Research Overview', 'research.html'),
         ('Research Stories', 'stories.html'),
+        ('Selected Research Funding', 'funding.html'),
         ('FLOODWARRIOR', 'https://floodwarrior.engin.umich.edu/'),
         ('C-PRIME', 'https://c-prime.engin.umich.edu/home'),
         ('News Archive', 'news.html'),
@@ -75,7 +75,7 @@ class NewsExcerpt(HTMLParser):
 
 def display_dates(markup):
     return re.sub(r'(<li\b[^>]*>)\((\d{4})/(\d{2})\)\s*',
-                  lambda m: m[1]+'<span class="news-date">'+month_abbr[int(m[3])]+' '+m[2]+'</span>', markup)
+                  r'\1<time class="news-date" datetime="\2-\3">(\2/\3)</time> ', markup)
 
 
 def home_content():

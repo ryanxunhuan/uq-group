@@ -275,6 +275,11 @@ button,summary{cursor:pointer}
 .contact-address address{font-style:normal;font-size:19px}
 .contact-grid .topic-list{font-size:19px}
 .contact-grid .topic-list li{margin:7px 0}
+.funding-list{margin:0}
+.funding-list>div{border-top:1px solid var(--line);padding:14px 0}
+.funding-list dt{color:var(--ink);font-size:22px;font-weight:500;line-height:1.4}
+.funding-list dd{color:var(--muted);font-size:18px;line-height:1.6;margin:4px 0 0}
+.funding-period{white-space:nowrap}
 .news-archive{max-width:1120px}
 .archive-years{background:transparent;padding:0}
 .archive-years.aside-nav{display:flex;gap:10px 26px;flex-wrap:wrap;font-size:18px}

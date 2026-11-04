@@ -39,6 +39,11 @@
     "description": "Bayesian experimental design for placing urban flood sensors around monitoring objectives.",
     "active": "Research"
   },
+  "funding": {
+    "title": "Selected Research Funding",
+    "description": "Selected research awards, sponsors, project periods, and Xun Huan’s roles at the University of Michigan.",
+    "active": "Research"
+  },
   "model-learning": {
     "title": "Learning Governing Equations from Noisy Observations",
     "description": "Bayesian system identification for learning governing equations from noisy observations.",
